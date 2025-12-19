@@ -92,7 +92,7 @@ export function RSVPForm() {
               type="text"
               value={name}
               onChange={(e) => setName(e.target.value)}
-              placeholder="Ditt barn namn"
+              placeholder="Ditt barns namn"
               className="w-full text-2xl font-extrabold text-pink-600 border-2 border-pink-300 focus:border-pink-500 rounded-xl p-4"
               required
             />
@@ -134,7 +134,7 @@ export function RSVPForm() {
               id="message"
               value={message}
               onChange={(e) => setMessage(e.target.value)}
-              placeholder="Har du några allergier eller annat vi bör veta?"
+              placeholder="Har du några allergier eller annat vi bör veta om?"
               className="w-full text-xl font-bold text-gray-700 border-2 border-pink-300 focus:border-pink-500 rounded-xl p-4 min-h-32"
               rows={4}
             />
